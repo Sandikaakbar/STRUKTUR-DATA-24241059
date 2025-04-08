@@ -1,18 +1,28 @@
-#perulangan (loop)
-#for kondisi : jika kondisi terpenuhi
-#   aksi jalankan aksi
+# perulangan (loop)
 
-angka_list = [0,2,4,6,8,10] # ini adalah list
-print(angka_list)
+# for kondisi: JIKA KONDISI TERPENUHI 
+#      aksi  JALANKAN AKSI
 
-#angka = 0
-#print(angka)
-#angka == 1 = angka = angka 1
-#print (angka)
-#angka == 1
-#print(angka)
-#for loop
-for i in angka_list :
-    print(f" i yang sekarang -> (i)" )
-    
-print("loop berakhir/n")
+#Angka_list = [0,2,4,8,10] #this is list
+#print (Angka_list)
+
+# angka = 0
+# print(angka)
+# angka += 1 
+# print(angka)
+
+# for loop
+#for i in Angka_list:
+#    print(f"i sekarang -> {i}")
+#print("loop berakhir \n")
+
+for i in range(5):
+    print(f"ini yang ada di range = {i}")
+print("loop berakhir")
+
+for i in range(1,10):
+    print(f"ini yang ada di range = {i}")
+print("loop berakhir")
+
+for i in range(1,4):
+    print("*" * i)
