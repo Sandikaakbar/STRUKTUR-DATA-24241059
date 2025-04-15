@@ -5,7 +5,7 @@ jumlah_deret = int(input("Masukkan jumlah deret: "))
 Angka_list = []
 
 # Menghasilkan bilangan genap
-for i in range(1, jumlah_deret + 1):
+for i in range(1, jumlah_deret // 2 + 1):
     Angka_list.append(i * 2)
 
 # Menampilkan bilangan genap
